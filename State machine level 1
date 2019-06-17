@@ -1,0 +1,50 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+   int userpick ;
+
+   printf("Please select the Condition  of the machine \n");
+
+    scanf("%i",&userpick);
+
+        if(userpick==1){
+
+                printf(" Machine is ON \n");
+
+   }else if (userpick==2){
+
+   printf(" Machine is OFF \n");
+
+   }else if (userpick==3){
+
+   printf(" Machine is Working");
+
+   }else if (userpick==4){
+
+   printf(" Robot is moving ");
+
+   }else if (userpick==5){
+
+   printf(" Robot stopped");
+
+   }else if (userpick==6){
+
+   printf(" Connection error ");
+
+   }else if (userpick==7){
+
+   printf(" Connection back");
+
+   }else if (userpick==8){
+
+   printf(" Power Low");
+
+   }else if (userpick==9){
+
+   printf(" Power Charging ");
+
+   }
+    return 0;
+}
